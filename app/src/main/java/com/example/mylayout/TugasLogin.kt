@@ -27,7 +27,7 @@ fun Login(modifier: Modifier = Modifier) {
         // Background Image representing Gedung Admisi
         Image(
             painter = painterResource(id = R.drawable.bg_gedung),
-            contentDescription = "Background Gedung Admisi",
+            contentDescription = "Background Gedung UMY",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
