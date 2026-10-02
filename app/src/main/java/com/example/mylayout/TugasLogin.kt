@@ -89,7 +89,7 @@ fun Login(modifier: Modifier = Modifier) {
             // Name Value
             Text(
                 text = "Rafi Arif Nugroho",
-                fontSize = 18.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Green,
                 textAlign = TextAlign.Center
