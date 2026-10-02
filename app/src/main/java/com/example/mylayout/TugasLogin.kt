@@ -53,7 +53,7 @@ fun Login(modifier: Modifier = Modifier) {
                 text = "Login",
                 fontSize = 35.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Blue,
+                color = Color.Green,
                 textAlign = TextAlign.Center
             )
 
