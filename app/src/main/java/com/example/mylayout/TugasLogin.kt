@@ -91,7 +91,7 @@ fun Login(modifier: Modifier = Modifier) {
                 text = "Rafi Arif Nugroho",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Blue,
+                color = Color.Green,
                 textAlign = TextAlign.Center
             )
 
