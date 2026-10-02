@@ -60,7 +60,7 @@ fun Login(modifier: Modifier = Modifier) {
             // Subtitle
             Text(
                 text = "Ini adalah halaman login,",
-                fontSize = 14.sp,
+                fontSize = 20.sp,
                 color = Color.DarkGray,
                 textAlign = TextAlign.Center
             )
