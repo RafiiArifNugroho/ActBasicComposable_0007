@@ -80,7 +80,7 @@ fun Login(modifier: Modifier = Modifier) {
             // Name Label
             Text(
                 text = "Nama",
-                fontSize = 16.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red,
                 textAlign = TextAlign.Center
