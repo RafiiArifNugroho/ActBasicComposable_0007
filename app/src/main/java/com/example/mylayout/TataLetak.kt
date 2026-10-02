@@ -99,3 +99,56 @@ fun TataletakRowColumn(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
+    Column(modifier = modifier) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(150.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Coll_Row1_Komponen1")
+                    Text(text = "Coll_Row1_Komponen2")
+                    Text(text = "Coll_Row1_Komponen3")
+                }
+                Spacer(modifier = Modifier.height(8.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Coll_Row2_Komponen1")
+                    Text(text = "Coll_Row2_Komponen2")
+                    Text(text = "Coll_Row2_Komponen3")
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(10.dp))
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(color = Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+            Text(
+                text = "My Music",
+                fontSize = 50.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(Alignment.Center)
+            )
+        }
+    }
+}
